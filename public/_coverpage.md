@@ -1,10 +1,10 @@
 ![logo](./logo.png)
 
-> Connect, Learn, Grow: Developing the Future at Gombe State University
+> Developing the Future at Gombe State University
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
+- Connect
+- Learn
+- Grow
 
 
 [Community](https://gdsc.community.dev/gombe-state-university/)

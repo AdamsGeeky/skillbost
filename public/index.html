@@ -8,9 +8,6 @@
     <title>GDSC GSU</title>
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/10.5.2/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/10.5.2/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/10.5.2/firebase-performance-compat.js"></script>
     <!-- Theme -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> 
     <!-- Custom theme stylesheet -->
@@ -23,6 +20,8 @@
     window.$docsify = {
       name: 'GDSC GSU',
       repo: 'https://github.com/GDSC-GSU/web',
+      ga: 'G-B7JVLTQ7YF',
+      disqus: 'shortname',
       coverpage: true,
       loadSidebar: true,
       loadNavbar: true,
@@ -47,29 +46,33 @@ We are grateful for the support of our sponsors and we look forward to working w
 <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 <!-- plugins -->
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js" data-ga="G-B7JVLTQ7YF"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
 <!-- firebase -->
-<script>  
-    document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        firebase.performance(); // call to activate
-    
-        try {
-          let app = firebase.app();
-          let features = [
-            'analytics', 
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBr2d_bxPh3bUcCtVjO1y8KKRfhW3Bwp3U",
+    authDomain: "gdscgsu.firebaseapp.com",
+    projectId: "gdscgsu",
+    storageBucket: "gdscgsu.appspot.com",
+    messagingSenderId: "1047250409852",
+    appId: "1:1047250409852:web:2f55486569aecf2f04ecf9",
+    measurementId: "G-B7JVLTQ7YF"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
   </body>
 </html>
