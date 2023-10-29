@@ -1,11 +1,9 @@
 * [Home](/)
 
-* About
+* [About](./About.html) 
 
-* [Community]() 
+* [Courses](./Courese.html)
 
-* Courses
+* [Patners](./partners.html)
 
-* Blogs
-
-* Teams
+* [Teams](./teams.html)
