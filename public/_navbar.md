@@ -1,5 +1,8 @@
 * <i class="fa fa-bars" aria-hidden="true"></i>
-    * [About](./About.html) 
-    * [Courses](./Courese.html)
-    * [Patners](./partners.html)
-    * [Teams](./teams.html)
+    * [Home](/)
+    * [About](#About) 
+    * [Teams](#teams)
+    * [Courses](#courses)
+    * [Patners](#partners)
+    * [Sponsors](#sponsors)
+    

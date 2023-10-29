@@ -26,7 +26,45 @@
     window.$docsify = {
       name: 'GDSC GSU',
       repo: 'https://github.com/GDSC-GSU/web',
-      disqus: 'shortname',
+      disqus: {
+        repo: "GDSC-GSU/web",
+        repoId: "R_kgDOKmYROA",
+        category: "General",
+        categoryId: "DIC_kwDOKmYROM4CaiAa",
+        mapping: "title",
+        strict: "1",
+        reactionsEnabled: "1",
+        emitMetadata: "1",
+        inputPosition: "top",
+        theme: "preferred_color_scheme",
+        lang: "en",
+        loading: "lazy"
+      },
+      ads: [
+    {
+      img: 'https://dn-lego-static.qbox.me/cps/1638355965-480x300.jpg',
+      href: 'https://s.qiniu.com/zqiMBz'
+    },
+    {
+      img: 'https://dn-lego-static.qbox.me/cps/1638355965-480x300.jpg',
+      href: 'https://s.qiniu.com/VJFJvi'
+    },
+    {
+      img: 'https://dn-lego-static.qbox.me/cps/1638355799-480300.jpg',
+      href: 'https://s.qiniu.com/7nM3uy'
+    },
+    {
+      img: 'https://dn-lego-static.qbox.me/cps/1638268412-480x300.jpg',
+      href: 'https://s.qiniu.com/VZvaii'
+    },
+    {
+      img: 'https://dn-lego-static.qbox.me/cps/1638268217-480x300.jpg',
+      href: 'https://s.qiniu.com/nMnaQj'
+    },
+    {
+      img: 'https://dn-lego-static.qbox.me/cps/1638267917-480x300.jpg',
+      href: 'https://s.qiniu.com/aqAneu'
+    }],
       coverpage: true,
       loadSidebar: true,
       loadNavbar: true,
@@ -34,25 +72,21 @@
       themeable: {
           readyTransition : true, // default
           responsiveTables: true  // default
-      }
+      },
+  loadFooter: true,
+  loadFooter: '_footer.md' 
     }
   </script>
-
-<h1>Sponsors</h1>
-
-<p>
-GDSC is sponsored by a variety of companies and organizations that support our mission to help students learn and grow as developers.
-
-Our sponsors provide GDSC with the resources we need to operate and to offer our members the best possible experience.
-
-We are grateful for the support of our sponsors and we look forward to working with them to continue to provide students with the best opportunities to learn and grow as developers.
-</p>
 <!-- Docsify v4 -->
 <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 <!-- plugins -->
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/docsify-giscus@1.0.0/dist/giscus.css">
+<script src="https://unpkg.com/docsify-giscus@1.0.0/dist/docsify-giscus.min.js"></script>
 <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
+<script src="https://unpkg.com/docsify-ads@1.0.4/dist/docsify-ads.min.js"></script>
+<!-- use the footer plugin latest version -->
+<script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
 <!-- firebase -->
 <script type="module">
   // Import the functions you need from the SDKs you need
@@ -72,7 +106,6 @@ We are grateful for the support of our sponsors and we look forward to working w
     appId: "1:1047250409852:web:2f55486569aecf2f04ecf9",
     measurementId: "G-B7JVLTQ7YF"
   };
-
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
