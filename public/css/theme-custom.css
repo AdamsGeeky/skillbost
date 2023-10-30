@@ -1,6 +1,8 @@
 :root {
     --base-font-size: 14px;
-    --theme-color   : green;
-    --theme-hue: 215;
+    /* orange */
+    --theme-color: green;
+    --theme-hue: 170;
+    --theme-saturation: 100%;
+    --theme-lightness: 50%;
   }
-  

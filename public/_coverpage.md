@@ -1,4 +1,4 @@
-![logo](./logo.png)
+![logo](./logo.png ':class=image-border-radius')
 
 > Developing the Future at Gombe State University
 

@@ -1,58 +1,80 @@
-<div id="singlepage">
+# About :id=About
 
-<div id="About">
-<h1>About</h1>
 Google Developer Student Clubs (GDSC) is a global network of student-led communities on university campuses that are passionate about Google developer technologies. We provide students with the resources and support they need to learn and grow as developers, and to build innovative solutions for local businesses and their communities.
 
-GDSC is open to all students, regardless of their background or experience level. We believe that everyone has the potential to be a successful developer, and we're here to help you reach your goals.
+<!-- tabs:start -->
 
-<h3>Benefits of joining GDSC</h3>
+## **<span style="color: green;">Connet</span>**
+
+# with floow dehjkdlkfj
+```c
+# include<stdio.h>
+int main(){
+    printf("welcome to the party")
+}
+
+```
+
+## **<span style="color: green;">Learn</span>**
+
+Bonjour!
+
+## **<span style="color: green;">Growth</span>**
+
+Ciao!
+
+<!-- tabs:end -->
+
+<h3 stle="text-algin: center">Benefits of joining GDSC</h3>
 <p>
 Access to exclusive learning resources and events
 Opportunity to work on real-world projects with local businesses and organizations
 Chance to network with other talented developers and Google employees
 Opportunity to give back to your community and promote STEM education
 </p>
-</div>
+
 <!-- TEAMS Section -->
-<div id="teams">
+# Core Teams :id=teams
 
 
-</div>
 <!-- Course Section -->
-<div id="courses">
-    <h1>Courses</h1>
+# Courses :id=courses
 <p>
-GDSC offers a variety of courses and workshops on a range of technical topics, including:
+GDSC offers a variety of courses and workshops on a range of technical topics, taught by experienced developers and are designed to help students learn new skills and apply them to real-world problems including:
 </p>
 
-Android development
-Web development
-Cloud computing
-Machine learning
-Artificial intelligence
-And more!
-<p>
-Our courses are taught by experienced developers and are designed to help students learn new skills and apply them to real-world problems.
-</p>
-</div>
+<!-- tabs:start -->
+
+# **<span style="color: green;">Git and Github</span>**
+
+# **<span style="color: green;">Machine learning</span>**
+
+# **<span style="color: green;">Android development</span>**
+
+# **<span style="color: green;">Web development</span>**
+
+# **<span style="color: green;">Cloud computing</span>**
+
+
+<!-- tabs:end -->
+
 
 <!-- Partners Section -->
-<div id="Patners">
-<h1>Partners</h1>
+# Partnners :id=Patners
+
 <p>
 GDSC is partnered with a variety of companies and organizations that support our mission to help students learn and grow as developers.
 Our partners offer GDSC members access to exclusive resources and opportunities, 
 such as:
-Discounted training and certifications
-Access to beta products and features
-Mentorship from industry experts
+- Discounted training and certifications
+- Access to beta products and features
+- Mentorship from industry experts
 </p>
-</div>
+
 
 <!-- Sonsors Section -->
-<div id="sponsors">
-<h1>Sponsors</h1>
+# Sponsors :id=sponsors
+
 <p>
 GDSC is sponsored by a variety of companies and organizations that support our mission to help students learn and grow as developers.
 

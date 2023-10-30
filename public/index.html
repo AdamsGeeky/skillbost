@@ -1,100 +1,113 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Google Developer Student Clubs GSU Learing Community">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>GDSC GSU</title>
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/10.5.2/firebase-app-compat.js"></script>
-    <!-- font -->
-    <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
-<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
-<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
-<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
-    <!-- Theme -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> 
-    <!-- Custom theme stylesheet -->
-   <link rel="stylesheet" href="./css/theme-custom.css">
-   <link rel="stylesheet" href="./css/main.css">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="description" content="Google Developer Student Clubs GSU Learing Community">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <title>GDSC GSU</title>
+        <!-- update the version number as needed -->
+        <script defer src="/__/firebase/10.5.2/firebase-app-compat.js"></script>
+        <!-- font -->
+        <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css"/>
+        <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css"/>
+        <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css"/>
+        <link
+        rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css"/>
+        <!-- Theme -->
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"/>
+        <link
+        rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+        <!-- Custom theme stylesheet -->
+        <link rel="stylesheet" href="./css/theme-custom.css">
+        <link
+        rel="stylesheet" href="./css/main.css">
+        <!-- custom css -->
+        <style>:root
+        {
+            --docsifytabs-border-color: #ededed;
+            --docsifytabs-tab-highlight-color: purple;
+        }
+        .image-border-radius {
+            border-radius: 40%;
+        }
+        .docsify-tabs__tab--active[data-tab="active state"] {
+            box-shadow: none;
+            background: #13547a;
+            color: white;
+        }
+        .docsify-tabs__content[data-tab-content="active state"] {
+            background-image: linear-gradient(0deg, #80d0c7 0%, #13547a 100%);
+        }
+        .docsify-tabs__content[data-tab-content="active state"] p strong {
+            color: white;
+        }
+    </style>
 
-  </head>
-  <body>
+</head>
+<body>
     <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: 'GDSC GSU',
-      repo: 'https://github.com/GDSC-GSU/web',
-      disqus: {
-        repo: "GDSC-GSU/web",
-        repoId: "R_kgDOKmYROA",
-        category: "General",
-        categoryId: "DIC_kwDOKmYROM4CaiAa",
-        mapping: "title",
-        strict: "1",
-        reactionsEnabled: "1",
-        emitMetadata: "1",
-        inputPosition: "top",
-        theme: "preferred_color_scheme",
-        lang: "en",
-        loading: "lazy"
-      },
-      ads: [
-    {
-      img: './logo.png',
-      href: 'https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-905434364%3A1698532992161538&access_type=offline&client_id=857409878587-im3f0si9p11h41a6aeiil7cs37frkubb.apps.googleusercontent.com&o2v=1&redirect_uri=https%3A%2F%2Fgdsc.community.dev%2Faccounts%2Fgoogle%2Flogin%2Fcallback%2F&response_type=code&scope=profile+email&service=lso&state=KV8yz9Mi9Wvy&theme=glif&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAM-Cau_TjCwJY9dkGiUwXoWqUehggzHAxx6aB5kFsmOhXqSvt158jJ40i-aKPimoB8mZ_Kv7VDT_FcwfMegz1czKX90rgFfqLyHXqMbyJt7mRmbrtgNQlu0GDfaUoB4BJBkh7Vq0F9UPLw8V4rh2t6if2FVX7w5ZUVruxTz6Lk43tYeyBH0crvQjp01lAAKSWPCnKtBgUUj5ZL-MvymgjnEALTZzyX1HyO9h-FvT4X5TtXkoc1hIP6-zdgfbSSk4Z7HxvLa1n_-jJ_MydVnTYgdqfzTYocFxW0jebmzHaLmRbEt2GmL52pInjzYtm175UGRxFf_L7KcM4ODGFOCMN43oPRU-gfyExs0cGiahccuE9jhx2rkcb-roqYgARw46C0qsNNtZmVdHQH5yNmJ9yfYmQF1QS1YEcxUXiU7YOBcpJgqDuDt-UYRkUCPqvftualgadwozOURNIDX_pM9z1GxbaJLJA%26as%3DS-905434364%253A1698532992161538%26client_id%3D857409878587-im3f0si9p11h41a6aeiil7cs37frkubb.apps.googleusercontent.com%26theme%3Dglif%23&app_domain=https%3A%2F%2Fgdsc.community.dev&rart=ANgoxcd6J3oQBZyk-mFZdC3Rd-dZAKj_0Oya8NKd1691DBGAzyEQeiTx3-azN6wi7W5gehyQ3otOEyckMnkNlwqnXpCV4yWP3g'
-    },
-    {
-      img: './logo.png',
-      href: 'https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-905434364%3A1698532992161538&access_type=offline&client_id=857409878587-im3f0si9p11h41a6aeiil7cs37frkubb.apps.googleusercontent.com&o2v=1&redirect_uri=https%3A%2F%2Fgdsc.community.dev%2Faccounts%2Fgoogle%2Flogin%2Fcallback%2F&response_type=code&scope=profile+email&service=lso&state=KV8yz9Mi9Wvy&theme=glif&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAM-Cau_TjCwJY9dkGiUwXoWqUehggzHAxx6aB5kFsmOhXqSvt158jJ40i-aKPimoB8mZ_Kv7VDT_FcwfMegz1czKX90rgFfqLyHXqMbyJt7mRmbrtgNQlu0GDfaUoB4BJBkh7Vq0F9UPLw8V4rh2t6if2FVX7w5ZUVruxTz6Lk43tYeyBH0crvQjp01lAAKSWPCnKtBgUUj5ZL-MvymgjnEALTZzyX1HyO9h-FvT4X5TtXkoc1hIP6-zdgfbSSk4Z7HxvLa1n_-jJ_MydVnTYgdqfzTYocFxW0jebmzHaLmRbEt2GmL52pInjzYtm175UGRxFf_L7KcM4ODGFOCMN43oPRU-gfyExs0cGiahccuE9jhx2rkcb-roqYgARw46C0qsNNtZmVdHQH5yNmJ9yfYmQF1QS1YEcxUXiU7YOBcpJgqDuDt-UYRkUCPqvftualgadwozOURNIDX_pM9z1GxbaJLJA%26as%3DS-905434364%253A1698532992161538%26client_id%3D857409878587-im3f0si9p11h41a6aeiil7cs37frkubb.apps.googleusercontent.com%26theme%3Dglif%23&app_domain=https%3A%2F%2Fgdsc.community.dev&rart=ANgoxcd6J3oQBZyk-mFZdC3Rd-dZAKj_0Oya8NKd1691DBGAzyEQeiTx3-azN6wi7W5gehyQ3otOEyckMnkNlwqnXpCV4yWP3g'
-    },
-    ],
-      coverpage: true,
-      loadSidebar: true,
-      loadNavbar: true,
-      subMaxLevel: 2,
-      themeable: {
-          readyTransition : true, // default
-          responsiveTables: true  // default
-      },
-  loadFooter: true,
-  loadFooter: '_footer.md' 
-    }
-  </script>
-<!-- Docsify v4 -->
-<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-<!-- plugins -->
-<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/docsify-giscus@1.0.0/dist/giscus.css">
-<script src="https://unpkg.com/docsify-giscus@1.0.0/dist/docsify-giscus.min.js"></script>
-<script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
-<script src="https://unpkg.com/docsify-ads@1.0.4/dist/docsify-ads.min.js"></script>
-<!-- use the footer plugin latest version -->
-<script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
-<!-- firebase -->
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
+    <script>
+        window.$docsify = {
+            name: 'GDSC GSU',
+            repo: 'https://github.com/GDSC-GSU/web',
+            coverpage: true,
+            loadSidebar: true,
+            loadNavbar: true,
+            subMaxLevel: 2,
+            themeable: {
+                readyTransition: true, // default
+                responsiveTables: true // default
+            },
+            tabs: {
+                persist: true, // default
+                sync: true, // default
+                theme: 'classic', // default
+                tabComments: true, // default
+                tabHeadings: true // default
+            },
+            ads: [
+                {
+                    img: './logo.png',
+                    href: 'https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-905434364%3A1698532992161538&access_type=offline&client_id=857409878587-im3f0si9p11h41a6aeiil7cs37frkubb.apps.googleusercontent.com&o2v=1&redirect_uri=https%3A%2F%2Fgdsc.community.dev%2Faccounts%2Fgoogle%2Flogin%2Fcallback%2F&response_type=code&scope=profile+email&service=lso&state=KV8yz9Mi9Wvy&theme=glif&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAM-Cau_TjCwJY9dkGiUwXoWqUehggzHAxx6aB5kFsmOhXqSvt158jJ40i-aKPimoB8mZ_Kv7VDT_FcwfMegz1czKX90rgFfqLyHXqMbyJt7mRmbrtgNQlu0GDfaUoB4BJBkh7Vq0F9UPLw8V4rh2t6if2FVX7w5ZUVruxTz6Lk43tYeyBH0crvQjp01lAAKSWPCnKtBgUUj5ZL-MvymgjnEALTZzyX1HyO9h-FvT4X5TtXkoc1hIP6-zdgfbSSk4Z7HxvLa1n_-jJ_MydVnTYgdqfzTYocFxW0jebmzHaLmRbEt2GmL52pInjzYtm175UGRxFf_L7KcM4ODGFOCMN43oPRU-gfyExs0cGiahccuE9jhx2rkcb-roqYgARw46C0qsNNtZmVdHQH5yNmJ9yfYmQF1QS1YEcxUXiU7YOBcpJgqDuDt-UYRkUCPqvftualgadwozOURNIDX_pM9z1GxbaJLJA%26as%3DS-905434364%253A1698532992161538%26client_id%3D857409878587-im3f0si9p11h41a6aeiil7cs37frkubb.apps.googleusercontent.com%26theme%3Dglif%23&app_domain=https%3A%2F%2Fgdsc.community.dev&rart=ANgoxcd6J3oQBZyk-mFZdC3Rd-dZAKj_0Oya8NKd1691DBGAzyEQeiTx3-azN6wi7W5gehyQ3otOEyckMnkNlwqnXpCV4yWP3g'
+                }, {
+                    img: './logo.png',
+                    href: 'https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-905434364%3A1698532992161538&access_type=offline&client_id=857409878587-im3f0si9p11h41a6aeiil7cs37frkubb.apps.googleusercontent.com&o2v=1&redirect_uri=https%3A%2F%2Fgdsc.community.dev%2Faccounts%2Fgoogle%2Flogin%2Fcallback%2F&response_type=code&scope=profile+email&service=lso&state=KV8yz9Mi9Wvy&theme=glif&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAM-Cau_TjCwJY9dkGiUwXoWqUehggzHAxx6aB5kFsmOhXqSvt158jJ40i-aKPimoB8mZ_Kv7VDT_FcwfMegz1czKX90rgFfqLyHXqMbyJt7mRmbrtgNQlu0GDfaUoB4BJBkh7Vq0F9UPLw8V4rh2t6if2FVX7w5ZUVruxTz6Lk43tYeyBH0crvQjp01lAAKSWPCnKtBgUUj5ZL-MvymgjnEALTZzyX1HyO9h-FvT4X5TtXkoc1hIP6-zdgfbSSk4Z7HxvLa1n_-jJ_MydVnTYgdqfzTYocFxW0jebmzHaLmRbEt2GmL52pInjzYtm175UGRxFf_L7KcM4ODGFOCMN43oPRU-gfyExs0cGiahccuE9jhx2rkcb-roqYgARw46C0qsNNtZmVdHQH5yNmJ9yfYmQF1QS1YEcxUXiU7YOBcpJgqDuDt-UYRkUCPqvftualgadwozOURNIDX_pM9z1GxbaJLJA%26as%3DS-905434364%253A1698532992161538%26client_id%3D857409878587-im3f0si9p11h41a6aeiil7cs37frkubb.apps.googleusercontent.com%26theme%3Dglif%23&app_domain=https%3A%2F%2Fgdsc.community.dev&rart=ANgoxcd6J3oQBZyk-mFZdC3Rd-dZAKj_0Oya8NKd1691DBGAzyEQeiTx3-azN6wi7W5gehyQ3otOEyckMnkNlwqnXpCV4yWP3g'
+                },
+            ]
+        }
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <!-- plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
+    <script src="https://unpkg.com/docsify-ads@1.0.4/dist/docsify-ads.min.js"></script>
+    <!-- docsify-tabs (latest v1.x.x) -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyBr2d_bxPh3bUcCtVjO1y8KKRfhW3Bwp3U",
-    authDomain: "gdscgsu.firebaseapp.com",
-    projectId: "gdscgsu",
-    storageBucket: "gdscgsu.appspot.com",
-    messagingSenderId: "1047250409852",
-    appId: "1:1047250409852:web:2f55486569aecf2f04ecf9",
-    measurementId: "G-B7JVLTQ7YF"
-  };
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
+    <!-- firebase -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import {initializeApp} from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+        import {getAnalytics} from "https://www.gstatic.com/firebasejs/10.5.2/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
 
-  </body>
-</html>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyBr2d_bxPh3bUcCtVjO1y8KKRfhW3Bwp3U",
+            authDomain: "gdscgsu.firebaseapp.com",
+            projectId: "gdscgsu",
+            storageBucket: "gdscgsu.appspot.com",
+            messagingSenderId: "1047250409852",
+            appId: "1:1047250409852:web:2f55486569aecf2f04ecf9",
+            measurementId: "G-B7JVLTQ7YF"
+        };
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+
+</body></html>
