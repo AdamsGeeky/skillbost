@@ -2,9 +2,9 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-const FeatureList = [
+const AboutList = [
   {
-    title: 'Easy to Use',
+    title: 'Connect',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -14,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Learn',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Growth',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -35,7 +35,24 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+
+const PartnersList = [
+  {
+    title: 'Connect',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+
+  },
+  {
+    title: 'Learn',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+  },
+  {
+    title: 'Growth',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+  },
+];
+
+function About({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -49,15 +66,39 @@ function Feature({Svg, title, description}) {
   );
 }
 
+// Partners
+
+function Partners({Svg, title}) {
+  return (
+    <div className={clsx('col col--4')}>
+      <div className="text--center">
+        <Svg className={styles.featureSvg} role="img" />
+      </div>
+      <div className="text--center padding-horiz--md">
+        <Heading as="h3">{title}</Heading>
+      </div>
+    </div>
+  );
+}
+
+
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {AboutList.map((props, idx) => (
+            <About key={idx} {...props} />
           ))}
         </div>
+      <h3 className="hero__title">Our Partners</h3>
+      <div className="container">
+        <div className="row">
+          {AboutList.map((props, idx) => (
+            <Partners key={idx} {...props} />
+          ))}
+        </div>
+      </div>
       </div>
     </section>
   );
