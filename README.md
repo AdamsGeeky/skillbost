@@ -1,4 +1,4 @@
-# Google Devloper Student Club Gombe State University Chapter
+# GDSC GSU Chapter
 
 ## Learing Community Platform
 
