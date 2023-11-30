@@ -1,5 +1,0 @@
-* [Git and Github](https://github.com/GDSC-GSU/Git-and-GitHub-Training)
-* [Web Devlopment](https://github.com/GDSC-GSU/webdevMentorship)
-* [Mobile App Devlopment](https://github.com/GDSC-GSU/AndroidComposeCamp)
-* [Machile Learing](https://github.com/GDSC-GSU/ML-foundations)
-* [Native Mobile Devlopment](https://github.com/GDSC-GSU/NativeAndroidDevelopment)
