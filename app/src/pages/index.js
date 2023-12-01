@@ -1,28 +1,30 @@
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import Heading from '@theme/Heading';
+import Homepage from '@site/src/components/Homepage';
+import Courses from '../components/Courses';
 import styles from './index.module.css';
+
+import Log from '@site/static/img/log.png';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Mentorship Resource site
-          </Link>
-        </div>
+      <div className={styles.info}>
+            <div>
+                <h1>Web Mentorship <span className="span">Program</span> </h1>
+                 <p className="top-note">
+                    This Mentorship Program is the most interesting event to enrol and 
+                    get the most in demand Tech Skills. It covers Most Basic Web Skills, 
+                    Version control and what not!  Read below and know more about the program.
+                    
+                  </p>
+                 <a href="#get-started">Register Now</a>
+             </div>         
+             <div class="img-box">
+                <img src={Log} className="main-img" />
+            </div>
       </div>
     </header>
   );
@@ -36,7 +38,8 @@ export default function Home() {
       description="GDSC GSU <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <Homepage />
+        <Courses/>
       </main>
     </Layout>
   );

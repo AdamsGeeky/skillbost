@@ -69,7 +69,7 @@ const config = {
         title: 'GDSC GSU',
         logo: {
           alt: 'GDSC GSU',
-          src: 'img/logo.svg',
+          src: 'img/log.png',
         },
         items: [
           {
