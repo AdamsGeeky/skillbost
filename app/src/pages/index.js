@@ -11,23 +11,21 @@ import Log from '@site/static/img/log.png'
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className={styles.info}>
-        <div>
-          <h1>
-            Web Mentorship <span className='span'>Program</span>{' '}
-          </h1>
-          <p className='top-note'>
-            This Mentorship Program is the most interesting event to enrol and get the most in demand Tech Skills. It covers Most Basic Web
-            Skills, Version control and what not! Read below and know more about the program.
-          </p>
-          <a href='#get-started'>Register Now</a>
-        </div>
-        <div className='img-box'>
-          <img src={Log} className='main-img' />
-        </div>
-      </div>
-    </header>
+<header className={clsx('hero hero--primary',styles.heroBanner)}>
+  <div className="hero hero--primary">
+  <div className="container">
+    <h1 className="hero__title">SkillBoost</h1>
+    <p className="hero__subtitle">
+    we believe in the extraordinary power of skills to drive innovation and create solutions that matter. At GDSC GSU, we've crafted a mentorship program that goes beyond traditional learning, focusing on not just expertise but also the essential skills necessary to unlock the full potential of Google Technology.
+
+    </p>
+    <div>
+      <button className="button button--secondary button--lg button--Primary">Get Started</button>
+    </div>
+  </div>
+</div>
+      
+</header>
   )
 }
 

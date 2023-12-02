@@ -64,7 +64,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.png',
       navbar: {
         title: 'GDSC GSU',
         logo: {
@@ -103,7 +103,7 @@ const config = {
             items: [
               {
                 label: 'WhatsApp',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://chat.whatsapp.com/IhAlIg7g0NZFOB4qriXlZ6',
               },
               {
                 label: 'Linkdin',
@@ -129,6 +129,11 @@ const config = {
             ],
           },
         ],
+        logo: {
+          alt: 'GDSC GSU Logo',
+          src: '/img/logo.png',
+          href: 'https://gdsc.community.dev/gombe-state-university/',
+        },
         copyright: `Copyright © ${new Date().getFullYear()} GDSC GSU`,
       },
       prism: {

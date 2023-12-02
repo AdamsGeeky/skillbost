@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const AboutList = [
   {
-    title: 'Connect',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Skill First Approach',
+    Svg: require('@site/static/img/Pair.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We prioritize skill development as the cornerstone of innovation.
       </>
     ),
   },
   {
-    title: 'Learn',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Innovation Mindset',
+    Svg: require('@site/static/img/team.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Gain hands-on experience to confidently leverage Google Technology.
       </>
     ),
   },
   {
-    title: 'Growth',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Practical Expertise',
+    Svg: require('@site/static/img/Programming.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+         Immerse yourself in a culture that values creativity, critical thinking, and solution-oriented approaches.
       </>
     ),
   },

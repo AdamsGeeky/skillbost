@@ -21,13 +21,19 @@
     }
   },
   "lint-staged": {
-    "*.+(js|jsx)": ["eslint --fix", "git add"],
-    "*.+(json|css|md)": ["prettier --write", "git add"]
+    "*.+(js|jsx)": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.+(json|css|md)": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "dependencies": {
-    "@docusaurus/core": "3.0.0",
-    "@docusaurus/plugin-google-gtag": "^3.0.0",
-    "@docusaurus/preset-classic": "3.0.0",
+    "@docusaurus/core": "^3.0.1",
+    "@docusaurus/plugin-google-gtag": "^3.0.1",
+    "@docusaurus/preset-classic": "^3.0.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^1.2.1",
     "prism-react-renderer": "^2.1.0",
@@ -35,8 +41,8 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.0.0",
-    "@docusaurus/types": "3.0.0",
+    "@docusaurus/module-type-aliases": "^3.0.1",
+    "@docusaurus/types": "^3.0.1",
     "eslint": "^8.54.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
