@@ -6,7 +6,7 @@ import Courses from '../components/Courses'
 import Mentors from '../components/Mentors'
 import styles from './index.module.css'
 
-import Log from '@site/static/img/log.png'
+import Link from '@docusaurus/Link'
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
@@ -20,7 +20,9 @@ function HomepageHeader() {
 
     </p>
     <div>
+      <Link to="https://gdsc.community.dev/gombe-state-university/">
       <button className="button button--secondary button--lg button--Primary">Get Started</button>
+      </Link>
     </div>
   </div>
 </div>
