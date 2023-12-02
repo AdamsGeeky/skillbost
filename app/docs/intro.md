@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-draft: true
+draft: false
 ---
 
 # Welcome to SkillBoost 
