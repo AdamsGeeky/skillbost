@@ -1,7 +1,3 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
-
 import Courseimg from '@site/static/img/log.png';
 export default function Courses() {
   return (

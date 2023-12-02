@@ -16,22 +16,23 @@ const config = {
   url: 'https://gdscgsu.web.app',
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  // organizationName: 'GDSC-GSU', // Usually your GitHub org/user name.
-  // projectName: '/', // Usually your repo name.
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  markdown: {
+    mermaid: true,
+    mdx1Compat: {
+      comments: true,
+      admonitions: true,
+      headingIds: true,
+    },
+  },
+  themes: ['@docusaurus/theme-mermaid'],
   presets: [
     [
       'classic',
@@ -63,6 +64,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      mermaid: {
+        theme:  {light: 'neutral', dark: 'forest'}
+          },
       // Replace with your project's social card
       image: 'img/logo.png',
       navbar: {
@@ -133,6 +137,7 @@ const config = {
           alt: 'GDSC GSU Logo',
           src: '/img/logo.png',
           href: 'https://gdsc.community.dev/gombe-state-university/',
+      
         },
         copyright: `Copyright © ${new Date().getFullYear()} GDSC GSU`,
       },
