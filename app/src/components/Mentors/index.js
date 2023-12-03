@@ -4,32 +4,25 @@ import AdamsGeeky from '@site/static/img/AdamsGeeky.png';
 import muby from '@site/static/img/muby.jpeg';
 
 const MentorList = [
+  {
+  
+    pic: AdamsGeeky,
+    name: 'Adamu M. Muhammad',
+    subtitle: 'DevOps | Backend Mentor | Lead ',
+  },
     {
       pic: mufteem,
       name: 'Bello Ibrahim',
-      subtitle: 'Web Developer at Company A',
+      subtitle: 'UI/UX Designer | frontend Mentor',
 
-    },
-    {
-  
-      pic: AdamsGeeky,
-      name: 'Adamu M. Muhammad',
-      subtitle: 'Software Engineer | DevOps | technical writer | Lead ',
     },
     {
     
       pic: muby,
       name: 'Mubarak Ibrahim',
-      subtitle: 'Product Manager at Company C',
+      subtitle: 'Graphic Designer | Frontend Mentor ',
 
-    },
-    {
-    
-      pic: mufteem,
-      name: 'Sarah Davis',
-      subtitle: 'Data Analyst at Company D',
     }
-
   ];
   
 
@@ -57,6 +50,7 @@ const Mentor = ({pic , name, subtitle, twitterHandle}) => {
 export default function Mentors() {
   return (
 <section>
+<h3 className="text--center">Our Mentors</h3>
 <div className="container">
 <div className="row">
   {MentorList.map((props, idx) => (

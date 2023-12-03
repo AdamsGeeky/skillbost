@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const AboutList = [
   {
     title: 'Skill First Approach',
-    Svg: require('@site/static/img/Pair.svg').default,
+    Svg: require('@site/static/img/connect.svg').default,
     description: (
       <>
         We prioritize skill development as the cornerstone of innovation.
@@ -14,7 +14,7 @@ const AboutList = [
   },
   {
     title: 'Innovation Mindset',
-    Svg: require('@site/static/img/team.svg').default,
+    Svg: require('@site/static/img/Pair.svg').default,
     description: (
       <>
         Gain hands-on experience to confidently leverage Google Technology.
@@ -23,7 +23,7 @@ const AboutList = [
   },
   {
     title: 'Practical Expertise',
-    Svg: require('@site/static/img/Programming.svg').default,
+    Svg: require('@site/static/img/team.svg').default,
     description: (
       <>
          Immerse yourself in a culture that values creativity, critical thinking, and solution-oriented approaches.
