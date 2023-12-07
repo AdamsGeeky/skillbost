@@ -7,48 +7,51 @@ draft: false
 
 At **GDSC GSU**, we firmly believe in the transformative potential of skill development. Our mentorship program, SkillBoost, is meticulously crafted to empower our members with not just expertise but the essential skills necessary to harness the full potential of Google Technology. 
 
-:::warning
 We are dedicated to nurturing a community of tech enthusiasts equipped to build viable solutions that address local challenges.
-:::
 
 ## what is GDSC 
 
 **Google Developer Student Clubs** are university based community groups for students interested in Google developer technologies. 
+
 :::note[note]
 
 Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. 
 :::
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-
-```mermaid
-%%{init: { 'logLevel': 'debug', 'theme': 'forest' } }%%
-    timeline
-        title Solution Challage Timeline 2024
-          2002 : LinkedIn
-          2004 : Facebook : Google
-          2005 : Youtube
-          2006 : Twitter
-          2007 : Tumblr
-          2008 : Instagram
-          2010 : Pinterest
-```
-
 
 By joining a **GDSC**, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.
 
 
-### Why SkillBoost?
+# GDSC SkillBoost Mentorship Program
+
+The **SkillBoost Mentorship Program** at Gombe State University is an innovative initiative aimed at enhancing skills and fostering innovation among students. 
+
+Open to all students across various faculties and levels of study, the program offers a comprehensive learning experience with a focus on practical applications. 
+
+It covers a range of topics, including version control, web fundamentals, Firebase integration, TensorFlow applications, and more. 
+
+The program is structured over two months, featuring weekly sessions that progressively build participants' skills
+
+# SkillBoost Mentorship Program timeline 
+
+```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'forest' } }%%
+    timeline
+        title SkillBoost Mentorship Program 
+          Week1 : **version Control** : Git : Github 
+          Week2 : web Fundamentals : how web works : HTML : CSS : JS
+          Week3 : Backend As Service (Firebase)
+          Week4 : Api : ML : Cloud       
+```
+
+Stay tuned for more details on how to enroll and be a part of this transformative experience. Get ready to unleash your full potential!
+
+**Connect**. **Learn**. **Grow**.
+
+## Why SkillBoost?
 
 <details>
-  <summary>**Skill First Approach**</summary>
+  <summary> Skill First Approach</summary>
   <div>
      <div>
      We prioritize skill development as the cornerstone of innovation.
@@ -56,38 +59,105 @@ By joining a **GDSC**, students grow their knowledge in a peer-to-peer learning 
   </div>
 </details>
 
+<details>
+  <summary> Practical Expertise </summary>
+  <div>
+     <div>
+     Gain hands-on experience to confidently leverage Google Technology
+     </div>
+  </div>
+</details>
 
 
-- **Practical Expertise:** Gain hands-on experience to confidently leverage Google Technology.
-- **Local Solutions:** Our focus is on cultivating skills that directly contribute to solving local problems.
-- **Innovation Mindset:** Immerse yourself in a culture that values creativity, critical thinking, and solution-oriented approaches.
+<details>
+  <summary> Local Solutions</summary>
+  <div>
+     <div>
+      Our focus is on cultivating skills that directly contribute to solving local problems.
+     </div>
+  </div>
+</details>
 
-### What Sets SkillBoost Apart?
+
+<details>
+  <summary>Innovation Mindset</summary>
+  <div>
+     <div>
+     Immerse yourself in a culture that values creativity, critical thinking, and solution-oriented approaches.
+     </div>
+  </div>
+</details>
+
+
+## What Sets SkillBoost Apart?
 
 - **Holistic Learning:** Beyond expertise, we emphasize the essential skillset needed for real-world application.
-- **Google Technology Focus:** Tailored to take full advantage of Google's cutting-edge tools and platforms.
+
 - **Community Support:** Engage with a vibrant community, collaborating on projects and sharing insights.
 - **Impact-Driven:** Transform your skills into tangible solutions that make a difference.
 
-## The SkillBoost Journey
+- **Skill Development:** Embark on a journey where skill development takes center stage. Master the tools and techniques that form the foundation of impactful tech solutions.
 
-1. **Skill Development:** Embark on a journey where skill development takes center stage. Master the tools and techniques that form the foundation of impactful tech solutions.
+- **Google Technology Integration:** Learn how to harness the power of Google Technology. From Cloud solutions to APIs, unlock the capabilities that can elevate your projects.
 
-2. **Google Technology Integration:** Learn how to harness the power of Google Technology. From Cloud solutions to APIs, unlock the capabilities that can elevate your projects.
+- **Local Problem Solving:** Apply your skills to address local challenges. Develop solutions that matter, making a positive impact on your community.
 
-3. **Local Problem Solving:** Apply your skills to address local challenges. Develop solutions that matter, making a positive impact on your community.
-
-## Join SkillBoost Today!
-
-Ready to be part of a community that believes in Skill First? Join SkillBoost now and kickstart your journey towards becoming a tech innovator.
-
-<!-- [Apply Now Button] -->
 
 ## Have Questions?
 
 Explore our FAQ section or get in touch for more information.
 
-<!-- [FAQ Button] -->
+
+<details>
+<summary> Who can participate in the program ?</summary>
+<div>
+ <div>
+open to students from all faculties and academic levels at Gombe State University, aiming for inclusivity and diverse participation.
+ </div>
+</div>
+</details>
+
+<details>
+<summary>What topics and skills are covered in the program ? </summary>
+<div>
+ <div>
+ Covers version control, web fundamentals, Firebase integration, TensorFlow applications, and more. Emphasizes technical expertise and essential skills for real-world applications.
+ </div>
+</div>
+</details>
+
+
+<details>
+<summary>Are there any prerequisites for joining the program ? </summary>
+<div>
+ <div>
+ While no strict prerequisites, a basic understanding of programming concepts may be beneficial. The program accommodates learners at various skill levels.
+ </div>
+</div>
+</details>
+
+<details>
+<summary>Is there any cost associated with the SkillBoost Mentorship Program ? </summary>
+<div>
+ <div>
+ Aims to be accessible to all students. Details about costs or potential scholarships will be communicated during the application process.
+ </div>
+</div>
+</details>
+
+<details>
+<summary>How can I stay updated on program announcements and activities ?</summary>
+   <div>
+      <div>
+      Regular updates, announcements, and relevant information will be shared through official university channels, including emails, notices, and social media platforms
+      </div>
+   </div>
+</details>
+
+## [Join SkillBoost Today!](./intro.md)
+
+Ready to be part of a community that believes in Skill First? Join SkillBoost now and kickstart your journey towards becoming a tech innovator.
+
 
 ## Follow Us for Updates
 
