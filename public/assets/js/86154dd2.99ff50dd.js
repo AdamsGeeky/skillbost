@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([[6967],{5764:l=>{l.exports=JSON.parse('{"label":"Solution challenge","permalink":"/blog/tags/solution-challenge","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

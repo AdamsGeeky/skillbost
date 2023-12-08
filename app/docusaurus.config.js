@@ -69,6 +69,20 @@ const config = {
           },
       // Replace with your project's social card
       image: 'img/logo.png',
+      metadata: [
+        
+      ],
+       // Announcement  
+       announcementBar: {
+        id: 'announcementBar-1', // Increment on change
+        isCloseable: false,
+        content: 
+         'Join SkillBoost Today ! <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/KP13Ym7bWRnDeNPx7">Register here</a>',
+         backgroundColor: 'orange',
+        //  #4fddbf ,#fafbfc
+         textColor: 'black',
+        //  `⭐️️⭐️️⭐️️⭐️️⭐️️`,
+      },
       navbar: {
         title: 'GDSC GSU',
         logo: {
