@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>GDSC GSU Blog</title>
+        <link>https://gdscgsu.web.app/blog</link>
+        <description>GDSC GSU Blog</description>
+        <lastBuildDate>Fri, 08 Dec 2023 07:06:10 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Solution Challenge Overview]]></title>
+            <link>https://gdscgsu.web.app/blog/Solution-Challage-2024</link>
+            <guid>https://gdscgsu.web.app/blog/Solution-Challage-2024</guid>
+            <pubDate>Fri, 08 Dec 2023 07:06:10 GMT</pubDate>
+            <description><![CDATA[Solution Challenge Overview]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="solution-challenge-overview">Solution Challenge Overview<a href="https://gdscgsu.web.app/blog/Solution-Challage-2024#solution-challenge-overview" class="hash-link" aria-label="Direct link to Solution Challenge Overview" title="Direct link to Solution Challenge Overview">​</a></h2>
+<p>Embarking on the Google Developer Student Clubs 2024 Solution Challenge is an exciting journey that promises not only technical growth but also the opportunity to make a tangible impact on real-world issues.</p>
+<p>As you gear up for this adventure, let's delve into the details of the registration process, ensuring you're well-prepared to showcase your skills and creativity.</p>
+<p>Google Developer Student Clubs (GDSC) Overview:
+Before we dive into the Solution Challenge specifics, let's understand the foundation – Google Developer Student Clubs.</p>
+<p>These clubs, spread across 100 countries and 2,000 university campuses, serve as vibrant community hubs for students keen on Google developer technologies. If you're part of a GDSC, you're already on the right track!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="solution-challenge-essentials">Solution Challenge Essentials:<a href="https://gdscgsu.web.app/blog/Solution-Challage-2024#solution-challenge-essentials" class="hash-link" aria-label="Direct link to Solution Challenge Essentials:" title="Direct link to Solution Challenge Essentials:">​</a></h2>
+<p>The Solution Challenge, an annual contest, beckons students from GDSC communities to devise solutions for local community problems using one or more Google products or platforms.</p>
+<p>The focal point is the <strong>United Nations' 17 Sustainable Development Goals (SDG)</strong>. It's not just a competition; it's an opportunity to address global challenges and contribute to positive change.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="registration-and-submission-process">Registration and Submission Process:<a href="https://gdscgsu.web.app/blog/Solution-Challage-2024#registration-and-submission-process" class="hash-link" aria-label="Direct link to Registration and Submission Process:" title="Direct link to Registration and Submission Process:">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="registration-form">Registration Form:<a href="https://gdscgsu.web.app/blog/Solution-Challage-2024#registration-form" class="hash-link" aria-label="Direct link to Registration Form:" title="Direct link to Registration Form:">​</a></h3>
+<p>Who should fill it out? Any individual interested in the Solution Challenge.</p>
+<p><strong>Requirements:</strong> All you need is your <strong>interest – no team required</strong> at this stage.</p>
+<p>When to submit: <strong>December 1, 2023, to February 22, 2024.</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="submission-form">Submission Form:<a href="https://gdscgsu.web.app/blog/Solution-Challage-2024#submission-form" class="hash-link" aria-label="Direct link to Submission Form:" title="Direct link to Submission Form:">​</a></h3>
+<p>The second form, distinct from the registration, is where your team will submit the project.</p>
+<p>It includes the <strong>Demo Video</strong>, <strong>GitHub links</strong>, and <strong>detailed responses</strong> to <strong>evaluation questions</strong>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="preparing-for-registration">Preparing for Registration:<a href="https://gdscgsu.web.app/blog/Solution-Challage-2024#preparing-for-registration" class="hash-link" aria-label="Direct link to Preparing for Registration:" title="Direct link to Preparing for Registration:">​</a></h2>
+<p>Before completing the Registration Form, familiarize yourself with the Solution Challenge details, including the timeline, prizes, evaluation criteria, and more at Solution Challenge Overview.</p>
+<p>The <a href="https://developers.google.com/community/gdsc-solution-challenge" target="_blank" rel="noopener noreferrer">Resources page</a> provides valuable insights to brainstorm ideas and support your technical skills.</p>
+<h1>Conclusion:</h1>
+<p>The Google Developer Student Clubs 2024 Solution Challenge is not just a competition; it's an invitation to be a catalyst for change.</p>
+<p>As you navigate the registration process, keep the key dates in mind, stay informed, and let your passion for technology shine.</p>
+<p>Get ready to contribute to a better world through innovation, creativity, and the power of Google developer technologies!</p>]]></content:encoded>
+            <category>Solution challenge</category>
+            <category>SGDgoals</category>
+        </item>
+    </channel>
+</rss>
